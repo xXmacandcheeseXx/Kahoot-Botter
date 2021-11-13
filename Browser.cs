@@ -29,6 +29,14 @@ namespace Kahoot_Botter
             DriverDir = File.ReadAllText(temp_folder + "\\KahootBotterDriverDir.txt");
 
             options.AddArguments("--headless", "--disable-gpu", "--window-size=1440,900");
+            
+            if (!Directory.Exists(DriverDir))
+            {
+                Console.Clear();
+                Console.WriteLine("\"drivers\\Chrome\\chromedriver.exe\" is missing | try downloading again from my github \"https://github.com/xXmacandcheeseXx/Kahoot-Botter\"");
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
 
             driver = new ChromeDriver(DriverDir, options);
         }
