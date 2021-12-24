@@ -1,0 +1,21 @@
++1.0.0
+-it works
+
++1.0.1
+-added: using tabs instead of opening a new instance of chrome every time to increase speed and decrease RAM and CPU usage
+-removed: Kahoot Helper Bot (using 1.0.0 with many people can still be fast but not recommended)
+
++1.0.2
+-added: a check to see if the game code exists
+-removed: using files to send game information because it no longer uses multiple programs like 1.0.0
+
++1.0.3
+-added: better context in directions
+-added: something that tells you when all bots are sent
+-added: releases for different operating systems
+
++1.0.4
+-fixed: saying driver directory wasn't there because it was trying to get information from a non-existing file that was used in v1.0.0
+
++1.0.5
+-added: opens all tabs first then it goes back and joins on all of the tabs to speed up the process by A LOT
