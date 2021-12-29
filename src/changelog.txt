@@ -19,3 +19,6 @@
 
 +1.0.5
 -added: opens all tabs first then it goes back and joins on all of the tabs to speed up the process by A LOT
+
++1.0.6
+-fixed: finally works on mac (still can't find out how to do linux but you can try making it work)
