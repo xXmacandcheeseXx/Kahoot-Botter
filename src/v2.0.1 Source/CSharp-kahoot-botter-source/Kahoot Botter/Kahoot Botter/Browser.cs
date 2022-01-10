@@ -57,7 +57,7 @@ namespace Kahoot_Botter
                 }
             }
 
-            // options.AddArguments("--headless", "--disable-gpu", "--window-size=1440,900", "--silent");
+            options.AddArguments("--headless", "--disable-gpu", "--window-size=1440,900", "--silent");
 
             driver = new ChromeDriver(DriverDir, options);
         }
