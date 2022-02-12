@@ -8,8 +8,6 @@ IF THE CHROME DRIVERS ARE OUTDATED GO TO https://chromedriver.chromium.org/downl
 
 # Operating Systems
 
-I have never tested this on linux or OSX
+I have never tested this on linux or OSX (I know I said I did on OSX but it never sent the bots probably because I was using the wrong .NET version)
 
-I will be very appreciative if someone can test it (I know I said I tested on OSX but it never got the bots to send probably because I was using .NET 6.0 instead of .NET Core 3.1)
-
-I might just end up testing on the differnet operating systems on a vm
+I'll give an update when I test it on the differnet operating systems
