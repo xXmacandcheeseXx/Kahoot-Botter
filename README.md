@@ -14,4 +14,4 @@ I have never tested this on anything other than windows
 
 When "Show Questions and Answers on players' devices" is turned on it for some reason can't interact with the answer buttons unless the browser is showing and it throws no error
 
-I think it is a selenium problem and I can't fix it
+I think it is a selenium problem and I have found no solution other than showing the browser
