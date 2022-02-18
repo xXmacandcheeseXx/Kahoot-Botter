@@ -2,12 +2,16 @@
 Kahoot Botter made in C# using Selenium
 ---
 NOTE:
-IF THE CHROME DRIVERS ARE OUTDATED GO TO https://chromedriver.chromium.org/downloads TO DOWNLOAD NEW CHROME DRIVERS FOR YOUR OPERATING SYSTEM (make sure to extract)
+IF THE CHROME DRIVERS ARE OUTDATED GO TO https://chromedriver.chromium.org/downloads TO DOWNLOAD NEW CHROME DRIVERS FOR YOUR OPERATING SYSTEM
 
 ---
 
 # Operating Systems
 
-I have never tested this on linux or OSX (I know I said I did on OSX but it never sent the bots probably because I was using the wrong .NET version)
+I have never tested this on anything other than windows
 
-I'll give an update when I test it on the differnet operating systems
+# Known Bugs
+
+When "Show Questions and Answers on players' devices" is turned on it for some reason can't interact with the answer buttons unless the browser is showing and it throws no error
+
+I think it is a selenium problem and I can't fix it
