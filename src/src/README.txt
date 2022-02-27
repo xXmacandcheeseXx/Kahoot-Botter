@@ -1,2 +1,0 @@
-download the latest release of chrome driver for your os from "https://chromedriver.chromium.org/downloads" and make a directory in "bin\Debug\netcoreapp3.1\" called "drivers\Chrome\" inside "Chrome" copy
-the chrome driver you downloaded from selenium (should be something like chromedriver.exe)
