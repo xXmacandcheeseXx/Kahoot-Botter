@@ -46,4 +46,7 @@ NOTE: Published as portable in visual studio so it can work on other operating s
 
 +3.0.0
 -added: lets you choose if you want to show the browser or not
--added: lets you run with arguments to skip process (only windows)
+-added: lets you run with arguments to skip process
+
++3.0.1
+-removed: I removed the code to detect operating systems because I couldn't find out how to actually get it to work on OSX and Linux
